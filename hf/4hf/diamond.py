@@ -22,7 +22,8 @@ def diamond(a):
 
     for i in li:
         print i.center(a)
-
+    
+    print "-" * 78
 
 
 def main():

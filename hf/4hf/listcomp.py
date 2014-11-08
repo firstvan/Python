@@ -67,5 +67,10 @@ def main():
 
     print li
 
+    li = [1,0,1,1,0,1,0,0]
+    li = [str(e) for e in li]
+
+    print "".join(li)
+
 if __name__ == "__main__":
     main()
